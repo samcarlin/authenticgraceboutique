@@ -1,3 +1,13 @@
 body {
     background: #FFE1D1;
 }
+
+footer {
+    background: #D0ECEA;
+      
+}
+
+.footer_logo {
+    height: 300px;
+    width: 300px;
+}
