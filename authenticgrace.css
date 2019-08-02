@@ -5,14 +5,20 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-.container {
+/* .container {
     padding: 20px;
     margin-bottom: 80px;
+    width: 1170px;
 
+} */
+.banner-image {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
 }
-
 footer {
     background: #D0ECEA;
       
@@ -22,6 +28,20 @@ footer {
     height: 300px;
     width: 300px;
 }
+
+.story::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.story-section {
+    float: left;
+    width: 50%;
+    
+}
+
+
+
 
 .categories {
     text-align: center;
