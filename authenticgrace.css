@@ -1,5 +1,16 @@
-body {
+/*placeholder header style just to see, feel free to change */
+.header {
     background: #FFE1D1;
+    height: 100px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding: 20px;
+    margin-bottom: 80px;
+
 }
 
 footer {
@@ -10,4 +21,62 @@ footer {
 .footer_logo {
     height: 300px;
     width: 300px;
+}
+
+.categories {
+    text-align: center;
+
+}
+
+.categories::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.category {
+    float: left;
+    width: 33.33%;
+}
+
+.category-icon {
+    position: relative;
+}
+/* change font color */
+.category-icon p {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    color: black;
+    font-size: 40px;
+}
+
+h1 {
+   font-size: 50px; 
+}
+
+.testimonials {
+    text-align: center;
+
+}
+.testimonials::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.testimonial {
+    float: left;
+    width: 50%;
+    
+}
+
+.testimonial-icon {
+    position: relative;
+}
+/* change font color */
+.testimonial-icon p {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    color: black;
+    font-size: 40px;
 }
