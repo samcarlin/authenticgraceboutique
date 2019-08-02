@@ -8,12 +8,12 @@ body {
     margin: 0;
 }
 
-/* .container {
+.container {
     padding: 20px;
     margin-bottom: 80px;
-    width: 1170px;
+    
 
-} */
+}
 .banner-image {
     margin: 0 auto;
     display: block;
@@ -34,14 +34,28 @@ footer {
     clear: both;
     display: table;
   }
-.story-section {
+
+  .story-section-left {
     float: left;
-    width: 50%;
+    width: 60%;
     
 }
 
+.story-section-right {
+    float: left;
+    width: 40%;
+    
+}
 
+.story-section-left p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
+.story-section-left h1 {
+    margin-left: 150px;
+    
+}
 
 .categories {
     text-align: center;
