@@ -4,6 +4,7 @@
 .header {
     background: #FFE1D1;
     height: 100px;
+    width: 100%;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -13,6 +14,7 @@ body {
 .container {
     padding: 20px;
     margin-bottom: 50px;
+    
     
 
 }
@@ -76,6 +78,7 @@ footer {
 
 .category-icon {
     position: relative;
+    
 }
 
 .category-icon p {
