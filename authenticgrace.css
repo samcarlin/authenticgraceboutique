@@ -1,3 +1,5 @@
+
+
 /*placeholder header style just to see, feel free to change */
 .header {
     background: #FFE1D1;
@@ -10,7 +12,7 @@ body {
 
 .container {
     padding: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     
 
 }
@@ -75,13 +77,14 @@ footer {
 .category-icon {
     position: relative;
 }
-/* change font color */
+
 .category-icon p {
     position: absolute;
     top: 60px;
     width: 100%;
     color: black;
     font-size: 40px;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 h1 {
@@ -106,11 +109,12 @@ h1 {
 .testimonial-icon {
     position: relative;
 }
-/* change font color */
+
 .testimonial-icon p {
     position: absolute;
     top: 60px;
     width: 100%;
     color: black;
     font-size: 40px;
+    background: rgba(255, 255, 255, 0.7);
 }
