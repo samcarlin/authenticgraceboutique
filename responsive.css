@@ -3,18 +3,17 @@
     .category  {
       width: 50%;
       margin-bottom: 50px;
-      
     }
-
-    @media all and (max-width: 1000px) {
-        .testimonial {
+    
+    .testimonial {
           width: 100%;
-          
         }
+}
 
     /* For Smartphones */
 @media all and (max-width: 670px) {
     .category, .testimonial, .story-section-left, .story-section-right {
       width: 100%;
+    }
       
     }
