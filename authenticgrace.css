@@ -1,10 +1,56 @@
 
 
-/*placeholder header style just to see, feel free to change */
-.header {
+
+header {
     background: #FFE1D1;
-    height: 100px;
     width: 100%;
+    color: white;
+    height: 100px;
+    font-size: 40px;
+    }
+
+.nav-header {
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.nav-bar {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.nav-header, .nav-image {
+    float: left;
+}
+.nav-bar-right {
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}  
+
+a, a:visited {
+    color: inherit;
+}
+li {
+      float: left;
+}
+  
+li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+}
+  a {
+    text-decoration: none;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -12,16 +58,20 @@ body {
 }
 
 .container {
-    padding: 20px;
-    margin-bottom: 50px;
-    
-    
-
+    padding: 0px;
+    width: 90%;
+    margin: 20px auto 50px auto;  
 }
+
+.container-story {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .banner-image {
     margin: 0 auto;
     display: block;
-    width: 50%;
+    width: 40%;
 }
 footer {
     background: #D0ECEA;
@@ -37,23 +87,21 @@ footer {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .story-section-left {
+.story-section-left {
     float: left;
-    width: 60%;
-    
+    width: 60%;  
 }
 
 .story-section-right {
     float: left;
-    width: 40%;
-    
+    width: 40%;   
 }
 
 .story-section-left p {
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 .story-section-left h1 {
