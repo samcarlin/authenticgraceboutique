@@ -74,18 +74,29 @@ body {
     width: 40%;
 }
 
+
+
 footer {
     background: #D0ECEA;
 
 }
 
-.authentic_grace_logo {
+img .authentic_grace_logo {
     padding: 0px;
+    margin-bottom: 0px;
+
 }
 
 
 .container-within-footer {
     padding: 25px;
+}
+
+.footer_logo{
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .footer_logo_column {
@@ -142,9 +153,6 @@ a {
     padding-left: 15px;
 }
 
-.about-section {
-
-}
 
 .footer_about_links{
     text-align: left;
