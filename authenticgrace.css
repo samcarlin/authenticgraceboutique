@@ -73,10 +73,16 @@ body {
     display: block;
     width: 40%;
 }
+
 footer {
     background: #D0ECEA;
 
 }
+
+.authentic_grace_logo {
+    padding: 0px;
+}
+
 
 .container-within-footer {
     padding: 25px;
@@ -93,10 +99,65 @@ footer {
         margin-left: auto;
 }
 
+
+ul .social_media_links{
+        margin-top: 10px;
+        text-align: center;
+        width: 180px;
+        padding: 50px;
+}
+
+.social_media_links li {
+        display: inline-block;
+        list-style: none;
+            list-style-type: none;
+            list-style-position: initial;
+            list-style-image: initial;
+
+}
+
+li {
+    padding: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+}
+.social_media_links li a {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    background-color: transparent;
+}
+
+.row-about-and-help{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about-section {
+
+}
+
+.footer_about_links{
+    text-align: left;
+}
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    display: block;
+}
+
+.footer_help_links{
+    text-align: left;
 }
 
 div {
