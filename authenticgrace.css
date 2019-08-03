@@ -71,15 +71,12 @@ body {
 .banner-image {
     margin: 0 auto;
     display: block;
-    width: 60%;
+    width: 40%;
 }
 footer {
     background: #D0ECEA;
 
 }
-
-img ag_logo_shape {
-    width: 50%;
 
 }
 .footer_logo {
