@@ -75,12 +75,49 @@ body {
 }
 footer {
     background: #D0ECEA;
-      
+
 }
 
+img ag_logo_shape {
+    width: 50%;
+
+}
 .footer_logo {
-    height: 300px;
-    width: 300px;
+    width: 180px;
+    display: inline-bock;
+    float: left;
+    margin: 0 auto;
+}
+
+.footer_logo_column {
+    float: left;
+    display: inline-bock;
+}
+
+.social_media_links {
+    margin-top: 10px;
+    text-align: center;
+    width: 180px;
+    float: left;
+    display: inline-bock;
+}
+
+.row-about-and-help {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+div {
+    display: block;
 }
 
 .story::after {
