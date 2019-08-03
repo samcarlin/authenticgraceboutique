@@ -13,7 +13,8 @@
     /* For Smartphones */
 @media all and (max-width: 670px) {
     .category, .testimonial, .story-section-left, .story-section-right {
-      width: 100%;
+      width: 90%;
+      margin: 0 auto;
     }
       
     }
