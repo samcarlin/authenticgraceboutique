@@ -78,33 +78,19 @@ footer {
 
 }
 
-}
-.footer_logo {
-    width: 180px;
-    display: inline-bock;
-    float: left;
-    margin: 0 auto;
+.container-within-footer {
+    padding: 25px;
 }
 
 .footer_logo_column {
-    float: left;
-    display: inline-bock;
-}
-
-.social_media_links {
-    margin-top: 10px;
-    text-align: center;
     width: 180px;
-    float: left;
-    display: inline-bock;
-}
-
-.row-about-and-help {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
 }
 
 ul {
