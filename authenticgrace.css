@@ -75,11 +75,11 @@ body {
 }
 
 
+.footer_container{
 
-footer {
     background: #D0ECEA;
-
 }
+
 
 img .authentic_grace_logo {
     padding: 0px;
@@ -92,14 +92,17 @@ img .authentic_grace_logo {
     padding: 25px;
 }
 
-.footer_logo{
+a .footer_logo{
     width: 180px;
     display: inline-block;
     text-align: center;
     margin: 0 auto;
+    padding: 10px;
 }
 
+
 .footer_logo_column {
+    float: left;
     width: 180px;
     display: inline-block;
     text-align: center;
@@ -151,12 +154,23 @@ a {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    float: center;
 }
+
 
 
 .footer_about_links{
     text-align: left;
 }
+
+.subscription_email_listing{
+    float: right;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
