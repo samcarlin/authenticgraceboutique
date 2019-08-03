@@ -11,29 +11,32 @@
         <link rel="stylesheet" href="authenticgrace.css">
         <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    
+        <script src="https://kit.fontawesome.com/be4fba9088.js"></script>
     </head>
 <body>
+
     <header> 
-        <a href="index.html" class="nav header">Authentic Grace</a>
-        <div class="nav bar middle">
-         <ul class="nav bar">
-            <li class="nav bar"><a href="#">Shop</a></li>
-            <li class="nav bar"><a href="#">Our Story</a></li>
-            <li class="nav bar"><a href="#">Blog</a></li>
-            <li class="nav bar"><a href="#">Contact</a></li>
+        <a href="index.html" class="nav-header">Authentic Grace</a> 
+        <img src="assets/ag_logo.png" width="100px" class="nav-image">
+        <div class="nav-bar-middle">
+         <ul class="nav-bar">
+            <li class="nav-bar"><a href="#">Shop</a></li>
+            <li class="nav-bar"><a href="#">Our Story</a></li>
+            <li class="nav-bar"><a href="#">Blog</a></li>
+            <li class="nav-bar"><a href="#">Contact</a></li>
           </ul>
         </div>
     
-
-        <div class="nav bar right">
-          <ul class="nav actions">
-            <li><i class="fas fa-female"></i></a></li>
-            <li class="nav actions"><a href="#"><i class="fas fa-search"></i></a></li>
-            <li class="nav actions"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>         
-          </ul>
-        </div>
+    
+        <div class="nav-bar-right">
+          <ul class="nav-actions">
+            <li class="nav-actions"><a href="#"></li><i class="fas fa-female"></i></a></li>
+            <li class="nav-actions"><a href="#"><i class="fas fa-search"></i></a></li>
+            <li class="nav-actions"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>         
+          </ul>        
+        </div>    
     </header>
+
 
     <div class="container">
        <div class="banner">
@@ -42,7 +45,7 @@
             </a>
        </div>
     </div>
-    <div class="container">
+    <div class="container-story">
        <div class="story">
            <div class="story-section-left">
             <h1>Our Story</h1>
@@ -99,23 +102,58 @@
     <footer class>
         <div class="container-within-footer">
             <div class="row-within-container-footer">
-                <div class="col-lg-3 col-md-4 co-sm-4 border_right1"> 
-                    <a class="footer_logo" href="https://github.com/samcarlin/authenticgrace/blob/master/index.html">
-                    </a>
-                    <img src="assets/ag_logo_shape.png" alt="authentic grace logo"> 
+                <div class="footer_logo_column"> 
+                    <a class="footer_logo" href="#">
+                    <img src="assets/ag_logo_shape.png" alt="authentic grace logo"></a> 
                     
     <!--End footer container with authentic grace logo-->
 
         <ul class="social_media_links">
-            <li><a href="https://www.facebook.com"></a>
-            <li><a href="https://www.instagram.com"></a>
-            <li><a href="https://twitter.com/"></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></a></i>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></a></i>
+            <a href="https://twitter.com/"><i class="fab fa-twitter-square"></a></i>
         </ul>
-        </div>
-    
-    <!--End footer social media links-->
-                
-    </footer>
 
+    <!--End footer social media links-->
+           
+            <div row="footer_2columns">
+                <ul class="footer_about_links">
+                    <h3 class="footer_title1">ABOUT</h3>
+                        <a href="#">Shop</a>
+                        <a href="#">Our Story</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                </ul>
+    <!--End footer ABOUT links-->
+
+                <div class="footer_help_link">
+                    <h3 class="footer_title2">HELP</h3> 
+                    <a href="#">Track Order</a>
+                    <a href="#">Help</a>
+                    <a href="#">FAQ</a>
+                </div>
+           
+    <!--End footer HELP links-->    
+        
+                <div class="subscription_email_listing">
+                    <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
+                    method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate> 
+                            <label for="ag-EMAIL">JOIN OUR EMAIL NEWSLETTER & get 10% off your next order!</label>
+                            <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
+
+                            <button class="newsletter-button" type="submit">
+                                <i class="fa fa-angle-right"></i>
+                            </button>
+    <!--End footer subscription email form listing->   
+                
+                
+                </div>
+       
+       
+    
+    
+ 
+            
+    </footer>
 </body>
 </html>
