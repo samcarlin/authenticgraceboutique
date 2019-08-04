@@ -63,6 +63,17 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+/*add a line break between sections */
+hr {
+    width: 80%;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFBD99;
+    border: 0 none;
+    margin-top: 100px;
+    margin-bottom:100px;
+    }
 
 .container {
     padding: 0px;
@@ -229,7 +240,7 @@ ul.sub-header li {
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.sub-header li+li:before {
-    padding: 20px;
+    /* padding: 20px; */
     color: white;
     content: "/\00a0";
 }
