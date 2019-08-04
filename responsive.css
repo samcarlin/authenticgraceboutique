@@ -1,7 +1,7 @@
 /* For Tablets */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   .container {
-    margin: 0 auto;
+    margin: 10px auto;
   }
     .category  {
       width: 50%;
