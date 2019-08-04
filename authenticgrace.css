@@ -106,6 +106,7 @@ a .footer_logo{
     width: 180px;
     display: inline-block;
     text-align: center;
+   
     margin: 0 auto;
         margin-top: 0px;
         margin-right: auto;
@@ -118,7 +119,8 @@ ul .social_media_links{
         margin-top: 10px;
         text-align: center;
         width: 180px;
-        padding: 50px;
+        padding-bottom: 300px;
+        
 }
 
 .social_media_links li {
@@ -155,8 +157,8 @@ a {
     padding-right: 15px;
     padding-left: 15px;
     float: center;
+    
 }
-
 
 
 .footer_about_links{
@@ -166,7 +168,7 @@ a {
 .subscription_email_listing{
     float: right;
     padding-top: 0px;
-    padding-right: 0px;
+    padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
 }
