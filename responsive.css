@@ -1,20 +1,26 @@
 /* For Tablets */
-@media all and (max-width: 1000px) {
-    .category  {
+@media all and (max-width: 1024px) {
+  .container {
+    margin: 10px auto;
+  }
+    .category, {
       width: 50%;
       margin-bottom: 50px;
     }
     
-    .testimonial {
+    .testimonial, .product-left, .product-right {
           width: 100%;
         }
+  
 }
 
     /* For Smartphones */
 @media all and (max-width: 670px) {
-    .category, .testimonial, .story-section-left, .story-section-right {
+    .category, .testimonial, .story-section-left, .story-section-right, .product-left, .product-right {
       width: 90%;
       margin: 0 auto;
     }
+
+  
       
     }
