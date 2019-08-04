@@ -1,5 +1,8 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
+  .container {
+    margin: 0 auto;
+  }
     .category  {
       width: 50%;
       margin-bottom: 50px;
@@ -8,6 +11,7 @@
     .testimonial {
           width: 100%;
         }
+  
 }
 
     /* For Smartphones */
@@ -16,5 +20,7 @@
       width: 90%;
       margin: 0 auto;
     }
+
+  
       
     }
