@@ -206,3 +206,102 @@ h1 {
     font-size: 40px;
     background: rgba(255, 255, 255, 0.7);
 }
+/*----Product Page----*/
+/* Style the list */
+
+ul.sub-header {
+    padding: 25px 35px;
+    list-style: none;
+    background: #D0ECEA;
+    }
+
+/* Display list items side by side */
+
+ul.sub-header li {
+    display: inline;
+    font-size: 16px;
+    color: white;
+   }
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.sub-header li+li:before {
+    padding: 20px;
+    color: white;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.sub-header li a {
+    color: white;
+    text-decoration: none;
+    padding-top: 0;
+}
+
+/* Add a color on mouse-over */
+ul.sub-header li a:hover {
+    color: #FFE1D1;
+    text-decoration: none;
+}
+
+/*form-flex button */
+form-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+/* Value-button */
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 50px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
