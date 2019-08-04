@@ -71,49 +71,115 @@ body {
 .banner-image {
     margin: 0 auto;
     display: block;
-    width: 60%;
+    width: 40%;
 }
-footer {
+
+
+.footer_container{
+
     background: #D0ECEA;
+}
+
+
+img .authentic_grace_logo {
+    padding: 0px;
+    margin-bottom: 0px;
 
 }
 
-img ag_logo_shape {
-    width: 50%;
 
+.container-within-footer {
+    padding: 25px;
 }
-.footer_logo {
+
+a .footer_logo{
     width: 180px;
-    display: inline-bock;
-    float: left;
+    display: inline-block;
+    text-align: center;
     margin: 0 auto;
+    padding: 10px;
 }
+
 
 .footer_logo_column {
     float: left;
-    display: inline-bock;
-}
-
-.social_media_links {
-    margin-top: 10px;
-    text-align: center;
     width: 180px;
-    float: left;
-    display: inline-bock;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
 }
 
-.row-about-and-help {
+
+ul .social_media_links{
+        margin-top: 10px;
+        text-align: center;
+        width: 180px;
+        padding: 50px;
+}
+
+.social_media_links li {
+        display: inline-block;
+        list-style: none;
+            list-style-type: none;
+            list-style-position: initial;
+            list-style-image: initial;
+
+}
+
+li {
+    padding: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+}
+.social_media_links li a {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    background-color: transparent;
+}
+
+.row-about-and-help{
+    position: relative;
     width: 100%;
+    min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    float: center;
+}
+
+
+
+.footer_about_links{
+    text-align: left;
+}
+
+.subscription_email_listing{
+    float: right;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    display: block;
+}
+
+.footer_help_links{
+    text-align: left;
 }
 
 div {
