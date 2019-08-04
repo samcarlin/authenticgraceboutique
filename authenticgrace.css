@@ -223,17 +223,11 @@ h1 {
 /* Style the list */
 
 ul.sub-header {
-<<<<<<< HEAD
-    padding: 25px 35px;
-    list-style: none;
-    background: #D0ECEA;
-=======
     margin-top: 0;
     padding: 25px 35px;
     list-style: none;
     background: #D0ECEA;
     width: 100%;
->>>>>>> 8ac22356c68910f8f070363592f617ab9b780f34
     }
 
 /* Display list items side by side */
@@ -246,11 +240,7 @@ ul.sub-header li {
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.sub-header li+li:before {
-<<<<<<< HEAD
-    padding: 20px;
-=======
     /* padding: 20px; */
->>>>>>> 8ac22356c68910f8f070363592f617ab9b780f34
     color: white;
     content: "/\00a0";
 }
@@ -329,9 +319,6 @@ form {
   input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0;
-<<<<<<< HEAD
-  }
-=======
   }
 
 .product-left {
@@ -355,4 +342,3 @@ form {
     clear: both;
     display: table;
 }
->>>>>>> 8ac22356c68910f8f070363592f617ab9b780f34
