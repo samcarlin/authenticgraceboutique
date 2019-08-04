@@ -228,26 +228,26 @@ ul.sub-header {
     list-style: none;
     background: #D0ECEA;
     width: 100%;
-    }
+  }
 
 /* Display list items side by side */
 
 ul.sub-header li {
     display: inline;
     font-size: 16px;
-    color: white;
+    color: black;
    }
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.sub-header li+li:before {
     /* padding: 20px; */
-    color: white;
+    color: black;
     content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 ul.sub-header li a {
-    color: white;
+    color:black;
     text-decoration: none;
     padding-top: 0;
 }
@@ -260,13 +260,19 @@ ul.sub-header li a:hover {
 
 /*form-flex button */
 form-flex {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+form-flex .buy-button {
+    cursor: pointer;
+
+}
 /* Value-button */
 form {
+    float: left;
     width: 300px;
     margin: 0 auto;
     text-align: left;
