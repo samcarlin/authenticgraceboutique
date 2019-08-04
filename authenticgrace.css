@@ -1,10 +1,9 @@
 
 
-
 header {
     background: #FFE1D1;
     width: 100%;
-    color: white;
+    color: black;
     height: 100px;
     font-size: 40px;
     }
@@ -22,9 +21,7 @@ header {
 .nav-header, .nav-image {
     float: left;
 }
-.nav-bar-right {
-    float: right;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -71,115 +68,49 @@ body {
 .banner-image {
     margin: 0 auto;
     display: block;
-    width: 40%;
+    width: 50%;
 }
-
-
-.footer_container{
-
+footer {
     background: #D0ECEA;
-}
-
-
-img .authentic_grace_logo {
-    padding: 0px;
-    margin-bottom: 0px;
 
 }
 
+img ag_logo_shape {
+    width: 50%;
 
-.container-within-footer {
-    padding: 25px;
 }
-
-a .footer_logo{
+.footer_logo {
     width: 180px;
-    display: inline-block;
-    text-align: center;
+    display: inline-bock;
+    float: left;
     margin: 0 auto;
-    padding: 10px;
 }
-
 
 .footer_logo_column {
     float: left;
+    display: inline-bock;
+}
+
+.social_media_links {
+    margin-top: 10px;
+    text-align: center;
     width: 180px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-bottom: 0px;
-        margin-left: auto;
+    float: left;
+    display: inline-bock;
 }
 
-
-ul .social_media_links{
-        margin-top: 10px;
-        text-align: center;
-        width: 180px;
-        padding: 50px;
-}
-
-.social_media_links li {
-        display: inline-block;
-        list-style: none;
-            list-style-type: none;
-            list-style-position: initial;
-            list-style-image: initial;
-
-}
-
-li {
-    padding: 0px;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-}
-.social_media_links li a {
-    display: inline-block;
-    padding: 10px 5px;
-    font-size: 20px;
-    text-align: center;
-}
-
-a {
-    background-color: transparent;
-}
-
-.row-about-and-help{
-    position: relative;
+.row-about-and-help {
     width: 100%;
-    min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    float: center;
-}
-
-
-
-.footer_about_links{
-    text-align: left;
-}
-
-.subscription_email_listing{
-    float: right;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    display: block;
-}
-
-.footer_help_links{
-    text-align: left;
 }
 
 div {
@@ -271,4 +202,127 @@ h1 {
     color: black;
     font-size: 40px;
     background: rgba(255, 255, 255, 0.7);
+}
+/*----Product Page----*/
+/* Style the list */
+
+ul.sub-header {
+    margin-top: 0;
+    padding: 25px 35px;
+    list-style: none;
+    background: #D0ECEA;
+    width: 100%;
+    }
+
+/* Display list items side by side */
+
+ul.sub-header li {
+    display: inline;
+    font-size: 16px;
+    color: white;
+   }
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.sub-header li+li:before {
+    padding: 20px;
+    color: white;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.sub-header li a {
+    color: white;
+    text-decoration: none;
+    padding-top: 0;
+}
+
+/* Add a color on mouse-over */
+ul.sub-header li a:hover {
+    color: #FFE1D1;
+    text-decoration: none;
+}
+
+/*form-flex button */
+form-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+/* Value-button */
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 50px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+.product-left {
+    float: left;
+    width: 40%;  
+}
+
+.product-right {
+    float: left;
+    width: 60%; 
+    padding-left: 0px;  
+}
+.container-product {
+    width: 60%;
+    margin: 100px auto;
+}
+
+
+.product::after {
+    content: "";
+    clear: both;
+    display: table;
 }
