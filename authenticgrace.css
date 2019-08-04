@@ -24,9 +24,9 @@ header {
 }
 
 .nav-actions-ul {
-    float: left;
+    float: right;
     vertical-align: center;
-    padding-left: 0;
+    padding-right: 40px;
     
 
 }
