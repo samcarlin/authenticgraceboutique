@@ -1,12 +1,11 @@
 
-
+/* header css*/
 header {
     background: #FFE1D1;
     width: 100%;
     color: black;
     height: 100px;
-    font-size: 40px;
-    
+    font-size: 40px; 
     }
 
 .nav-header {
@@ -27,17 +26,17 @@ header {
     float: right;
     vertical-align: center;
     padding-right: 40px;
-    
-
 }
-
+.nav-actions-ul li {
+    float: left;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
+
 a {
     text-decoration: none;
 }  
@@ -45,23 +44,31 @@ a {
 a, a:visited {
     color: inherit;
 }
-li {
+
+.nav-bar li {
       float: left;
 }
   
-li a {
+.nav-bar li a {
       display: inline;
       color: black;
       text-align: center;
       padding: 16px;
       text-decoration: none;
 }
-  a {
+
+.nav-actions-ul li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    padding-bottom: 0;
 }
 /*add a line break between sections */
 hr {
@@ -92,42 +99,53 @@ hr {
     width: 50%;
 }
 
-footer {
+.footer-container {
     background: #D0ECEA;
+    height: 150px;
+    width: 100%;
+    padding-bottom: 10px;
 }
 
-.social_media_links_container{
-    text-align: center;
-}
 
-.social_media_links ul{
+.social_media_links {
+    padding-top: 10px;
     float: left;
+    margin-left: 60px;
 }
 
-.social_media_links ul li {
-    margin: 0 auto;
-    text-align: center;
-    display: inline block;
+.social_media_links li {
+    padding: 10px;
+    float: left;
 
+}
+
+.logo_container img {
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .about_links_container {
-    float: center;
+    float: left;
+    margin-left: 150px;   
 }
+
 
 .help_links_container {
-    float: center;
+    float: left;
+    margin-left: 150px;
 }
 
-.subscription_email_listing_container {
+
+.subscription_email_listing_container, .subscription_email_entry_container {
     float: right;
+    margin-right: 200px;
+    padding: 5px;
 }
-    
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+.subscription {
+    padding-top: 40px;
 }
+
 
 div {
     display: block;
@@ -259,24 +277,21 @@ ul.sub-header li a:hover {
 }
 
 /*form-flex button */
-form-flex {
+.buy-button {
     cursor: pointer;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
-form-flex .buy-button {
-    cursor: pointer;
 
-}
 /* Value-button */
 form {
     float: left;
     width: 300px;
     margin: 0 auto;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   
   .value-button {
@@ -348,3 +363,5 @@ form {
     clear: both;
     display: table;
 }
+
+

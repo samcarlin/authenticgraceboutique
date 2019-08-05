@@ -72,14 +72,20 @@
         <option>XX-Large</option>
     </select>
 
-    <select id="mySelect-qty">
+    <div class="flex-container">
+        <div class="sc-lbl" data-auto="size-header">
+          Quantity:
+        </div>
+    </div>
+    
+    <!-- <select id="mySelect-qty">
         <option>Select</option>
         <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
         <option>5</option>
-    </select>
+    </select> -->
     <form>
         <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
         <input type="number" id="number" value="0" />
@@ -103,7 +109,8 @@
     </script> 
       <div class="form-flex">
         <button type="button" data="" class="buy-button">Add To Bag</button>
-    </div>
+      </div>
+      
     </div>
     </div> 
     <hr>
@@ -116,70 +123,68 @@
 
         </div>
     </div>
-   
-
-
-<!-- <div class="footer">
-    <footer class>
-        <div class="container-within-footer">
-            <div class="row-within-container-footer">
-                <div class="footer_logo_column"> 
-                    <a class="footer_logo" href="#">
-                    <img src="assets/ag_logo_shape.png" alt="authentic grace logo"></a> -->
-                  
-    <!--End footer container with authentic grace logo-->
-
-        <!-- <ul class="social_media_links">
-
-            <a href="https://www.facebook.com"><i class="fab fa-facebook"></a></i>
-            <a href="https://www.instagram.com"><i class="fab fa-instagram"></a></i>
-            <a href="https://twitter.com/"><i class="fab fa-twitter-square"></a></i>
-        </ul>
-        </div> -->
-    <!--End footer social media links-->
-        <!-- <div class="row-about-and-help">
-            <div class="row-about">
-                <div class="about-section">
-                        <h3 class="footer_title1">ABOUT</h3>
-                            <ul class="footer_about_links">
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Our Story</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-        </div> -->
-    <!--End footer "ABOUT" links-->
-        <!-- <div class="row-help">
-                    <h3 class="footer_title2">HELP</h3> 
-                         <ul class="footer_help_links">
+    </div>
+    <div class="footer-container">
+        <footer>
+            <!-- <div class="logo_container"><a class="footer_logo" href="#">
+                <img src="assets/ag_logo.png" height="75px">
+            </div> -->
+        <!--end authentic grace logo container-->
+        
+            <div class="social_media_links_container">
+                  <ul class="social_media_links">
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                  </ul>
+            </div>
+         <!--End footer social media links-->
+        
+            <div class="about_links_container">
+                     <h3 class="footer_about">ABOUT</h3>
+                        <ul class="footer_about_links">
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+            </div>
+        <!--End footer "ABOUT" links-->
+        
+            <div class="help_links_container">
+                    <h3 class="footer_help">HELP</h3>
+                        <ul class="footer_help_links">
                             <li><a href="#">Track Order</a><li>
                             <li><a href="#">Help</a></li>
                             <li><a href="#">FAQ</a></li>
                         </ul>
-                </div>
             </div>
-        </div> -->
-           
-    <!--End footer "HELP" links-->    
+        <!--End footer "HELP" links-->
+            <div class="subscription">
+            <div class="subscription_email_listing_container">
+                 <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
+                method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate>
+                        </form>        
+                <label for="ag-EMAIL">Join our email newsletter</label>
+            </div>
+            
         
-                <!-- <div class="subscription_email_listing">
-                    <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
-                    method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate>
-                            <label for="ag-EMAIL">Join our email newsletter</label>
-                            <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
-
-                            <button class="newsletter-button" type="submit">
-                                <i class="fa fa-angle-right"></i>
-                            </button>
-                    </form>
-                </div>
+            <div class="subscription_email_entry_container">
+                <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
+                                    
+                    <button class="newsletter-button" type="submit">
+                        <i class="fa fa-angle-right"></i>
+                    </button>
             </div>
-        </div>
+            </div>
+        
+        <!--End subscription email listing entry links-->
+        
+        
+        
         </footer>
-    </div> -->
-    <!--End footer subscription email form listing-->   
-
-
+        </div>
+         <!--End footer container--> 
     
 </body>
 
