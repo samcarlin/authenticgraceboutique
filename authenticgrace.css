@@ -99,53 +99,6 @@ hr {
     width: 50%;
 }
 
-.footer-container {
-    background: #D0ECEA;
-    height: 150px;
-    width: 100%;
-    padding-bottom: 10px;
-}
-
-
-.social_media_links {
-    padding-top: 10px;
-    float: left;
-    margin-left: 60px;
-}
-
-.social_media_links li {
-    padding: 10px;
-    float: left;
-
-}
-
-.logo_container img {
-    margin-left: 80px;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-.about_links_container {
-    float: left;
-    margin-left: 150px;   
-}
-
-
-.help_links_container {
-    float: left;
-    margin-left: 150px;
-}
-
-
-.subscription_email_listing_container, .subscription_email_entry_container {
-    float: right;
-    margin-right: 200px;
-    padding: 5px;
-}
-.subscription {
-    padding-top: 40px;
-}
-
 
 div {
     display: block;
@@ -364,4 +317,51 @@ form {
     display: table;
 }
 
+
+.footer-container {
+    background: #D0ECEA;
+    height: 150px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.social_media_links {
+    padding-top: 10px;
+    float: left;
+    margin-left: 60px;
+}
+
+.social_media_links li {
+    padding: 10px;
+    float: left;
+
+}
+
+.logo_container img {
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.about_links_container {
+    float: left;
+    margin-left: 150px;   
+}
+
+
+.help_links_container {
+    float: left;
+    margin-left: 150px;
+}
+
+
+.subscription_email_listing_container, .subscription_email_entry_container {
+    float: right;
+    margin-right: 200px;
+    padding: 5px;
+}
+.subscription {
+    padding-top: 40px;
+}
 
