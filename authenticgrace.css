@@ -328,13 +328,13 @@ form {
 
 .social_media_links {
     padding-top: 10px;
-    float: left;
+    /* float: left; */
     margin-left: 60px;
 }
 
 .social_media_links li {
     padding: 10px;
-    float: left;
+    /* float: left; */
 
 }
 
@@ -345,19 +345,19 @@ form {
 }
 
 .about_links_container {
-    float: left;
+    /* float: left; */
     margin-left: 150px;   
 }
 
 
 .help_links_container {
-    float: left;
+    /* float: left; */
     margin-left: 150px;
 }
 
 
 .subscription_email_listing_container, .subscription_email_entry_container {
-    float: right;
+    /* float: right; */
     margin-right: 200px;
     padding: 5px;
 }
