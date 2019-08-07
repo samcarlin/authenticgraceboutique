@@ -228,25 +228,32 @@ ul.sub-header li a:hover {
     color: #FFE1D1;
     text-decoration: none;
 }
-
+/* .counter {
+    
+    display: inline-block;
+} */
 /*form-flex button */
-.buy-button {
+.button {
     cursor: pointer;
-    display: block;
-    align-items: center;
-    justify-content: space-between;
-    /* width: 100%; */
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    
+    
+    /* display: inline; */
+    /* widt200100%; */
 }
 
 /* Value-button */
 form {
-    float: left;
-    width: 300px;
-    margin: 0 auto;
+    display: inline;
+    width: 200px;
+   
     text-align: left;
     padding-top: 10px;
+    margin-top: 10px;
   }
-  
+
   .value-button {
     display: inline-block;
     border: 1px solid #ddd;
@@ -263,6 +270,7 @@ form {
     cursor: pointer;
     color: white;
   }
+  
   
   form #decrease {
     margin-right: -4px;
@@ -317,18 +325,18 @@ form {
     display: table;
 }
 
-.container_around_footer{
-    display: display: flex;
+/* .container_around_footer {
+    display: flex;
     flex-direction: row; 
     justify-content: center;
 
-}
+} */
 
-.footer_col {
+/* .footer_col {
     flex-direction: column;
-}
+} */
 
-.footer-container {
+footer {
     background: #D0ECEA;
     height: 150px;
     width: 100%;
@@ -337,42 +345,43 @@ form {
 }
 
 
-.social_media_links {
+.social_media_links ul li {
     padding-top: 10px;
-    /* float: left; */
+    float: left;
     margin-left: 60px;
 }
 
 .social_media_links li {
     padding: 10px;
-    /* float: left; */
+    float: left;
 
 }
 
-.logo_container img {
+/* .logo_container img {
     margin-left: 80px;
     margin-top: 10px;
     margin-bottom: 0;
-}
+} */
 
 .about_links_container {
-    /* float: left; */
+    float: left;
     margin-left: 150px;   
 }
 
 
 .help_links_container {
-    /* float: left; */
+    float: left;
     margin-left: 150px;
 }
 
 
 .subscription_email_listing_container, .subscription_email_entry_container {
-    /* float: right; */
+    float: right;
     margin-right: 200px;
     padding: 5px;
 }
 .subscription {
     padding-top: 40px;
+    float: right;
 }
 

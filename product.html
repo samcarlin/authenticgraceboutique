@@ -72,7 +72,7 @@
         <option>XX-Large</option>
     </select>
 
-    <div class="flex-container">
+    <div class="quantity-container">
         <div class="sc-lbl" data-auto="size-header">
           Quantity:
         </div>
@@ -86,11 +86,13 @@
         <option>4</option>
         <option>5</option>
     </select> -->
+    
     <form>
         <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
         <input type="number" id="number" value="0" />
         <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
       </form>
+    
     <script>
       function increaseValue() {
         var value = parseInt(document.getElementById('number').value, 10);
@@ -107,8 +109,9 @@
         document.getElementById('number').value = value;
       }
     </script> 
-      <div class="form-flex">
-        <button type="button" data="" class="buy-button">Add To Bag</button>
+    
+      <div class="button">
+        <button class="button">Add To Bag</button>
       </div>
       
     </div>
