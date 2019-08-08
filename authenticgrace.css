@@ -337,7 +337,7 @@ footer {
 }
 
 
-.social_media_links ul li {
+.social_media_links {
     padding-top: 10px;
     float: left;
     margin-left: 60px;
@@ -368,12 +368,12 @@ footer {
 
 
 .subscription_email_listing_container, .subscription_email_entry_container {
-    float: right;
-    margin-right: 200px;
+    
     padding: 5px;
 }
 .subscription {
     padding-top: 40px;
-    float: right;
-}
+    float: left;
+    margin-left: 450px;
+} 
 
