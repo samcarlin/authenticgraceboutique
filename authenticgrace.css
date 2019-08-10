@@ -317,45 +317,49 @@ form {
     display: table;
 }
 
-/* .container_around_footer {
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
+/* footer css*/
 
-} */
-
-/* .footer_col {
-    flex-direction: column;
-} */
-
-footer {
+.footer-container {
     background: #D0ECEA;
     height: 150px;
     width: 100%;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 
+.footer-col {
+    flex-direction: column;
+    margin-right: 3em;
+}
+
+.footer-logo {
+    margin: 0;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 
-.social_media_links {
-    padding-top: 10px;
-    float: left;
+ .social_media_links {
+    margin-top: 0;
     margin-left: 60px;
 }
 
 .social_media_links li {
     padding: 10px;
-    float: left;
+    display: inline-block;    
 
 }
 
-/* .logo_container img {
-    margin-left: 80px;
-    margin-top: 10px;
-    margin-bottom: 0;
-} */
 
-.about_links_container {
+
+/* .about_links_container {
     float: left;
     margin-left: 150px;   
 }
@@ -364,16 +368,15 @@ footer {
 .help_links_container {
     float: left;
     margin-left: 150px;
-}
+} */
 
 
-.subscription_email_listing_container, .subscription_email_entry_container {
+/* .subscription_email_listing_container, .subscription_email_entry_container {
     
     padding: 5px;
 }
+*/
 .subscription {
     padding-top: 40px;
-    float: left;
-    margin-left: 450px;
-} 
+}  
 
