@@ -1,34 +1,44 @@
 
 /* header css*/
+.header-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; 
+    flex-shrink: 1;  
+}
+
+.nav-left {
+    display: flex;
+}
+
 header {
     background: #FFE1D1;
     width: 100%;
     color: black;
     height: 100px;
     font-size: 40px; 
-    }
+}
 
 .nav-header {
-    padding-top: 15px;
-    padding-left: 50px;
-    padding-right: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 30px;
 }
 .nav-bar {
-    padding-top: 15px;
-    padding-left: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
     font-size: 25px;
-}
-.nav-header, .nav-image {
-    float: left;
-}
+} 
+
 
 .nav-actions-ul {
-    float: right;
     vertical-align: center;
     padding-right: 40px;
+    margin-top: 15px;
 }
-.nav-actions-ul li {
-    float: left;
+.nav-actions-ul li, .nav-bar li {
+    display: inline;
+    padding: 10px;
 }
 
 ul {
@@ -45,25 +55,6 @@ a, a:visited {
     color: inherit;
 }
 
-.nav-bar li {
-      float: left;
-}
-  
-.nav-bar li a {
-      display: inline;
-      color: black;
-      text-align: center;
-      padding: 16px;
-      text-decoration: none;
-}
-
-.nav-actions-ul li a {
-    display: inline;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -358,24 +349,6 @@ form {
 }
 
 
-
-/* .about_links_container {
-    float: left;
-    margin-left: 150px;   
-}
-
-
-.help_links_container {
-    float: left;
-    margin-left: 150px;
-} */
-
-
-/* .subscription_email_listing_container, .subscription_email_entry_container {
-    
-    padding: 5px;
-}
-*/
 .subscription {
     padding-top: 40px;
 }  
