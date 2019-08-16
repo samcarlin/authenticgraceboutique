@@ -307,6 +307,18 @@ form {
     clear: both;
     display: table;
 }
+/* css for clothes page */
+.dress-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px auto 50px auto;
+    width: 80%;  
+}
+
+.clothes-h1 {
+    text-align: center;
+}
 
 /* footer css*/
 
@@ -317,8 +329,7 @@ form {
     padding-bottom: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 .footer-col {
@@ -345,9 +356,7 @@ form {
 .social_media_links li {
     padding: 10px;
     display: inline-block;    
-
 }
-
 
 .subscription {
     padding-top: 40px;
@@ -375,6 +384,7 @@ form {
 
 .clothes-col p {
     max-width: 400px;
+    margin: 0.5em;
 }
 
 .btn-size {
@@ -383,10 +393,4 @@ form {
 
 h2 {
     text-align: center;
-}
-/* css for clothes page */
-.dress-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
