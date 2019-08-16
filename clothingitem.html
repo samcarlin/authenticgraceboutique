@@ -41,7 +41,23 @@
         </div>    
     </header>
     <div class="main-container">
+        <div class="clothes-col">
         
+        <img class="thumbnail" src="assets/adult-attractive-beautiful-1537496.jpg" onclick="changeImage('assets/adult-attractive-beautiful-1537496.jpg')" />
+        <img class="thumbnail" src="assets/beautiful-woman-car-photoshoot-1537495.jpg" onclick="changeImage('assets/beautiful-woman-car-photoshoot-1537495.jpg')" />
+        <img class="thumbnail" src="assets/adult-beautiful-city-1537494.jpg" onclick="changeImage('assets/adult-beautiful-city-1537494.jpg')" />
+        <img class="thumbnail" src="assets/adorable-adult-beautiful-1537497.jpg" onclick="changeImage('assets/adorable-adult-beautiful-1537497.jpg')" />
+        </div>
+        <div class="clothes-col">
+                <img id="product" src="assets/adorable-adult-beautiful-1537497.jpg" width= "200px"/>
+        </div>
+
+        <script>
+            function changeImage(img) {
+                document.getElementById('product').src = img;
+            }
+        </script>
+
     </div>
 
 

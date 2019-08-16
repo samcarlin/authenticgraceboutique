@@ -353,3 +353,20 @@ form {
     padding-top: 40px;
 }  
 
+/* clothing item page css */
+
+.thumbnail {
+    width: 50px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clothes-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
