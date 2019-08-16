@@ -363,10 +363,30 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .clothes-col {
     display: flex;
     flex-direction: column;
     margin-right: 40px;
+}
+
+.clothes-col p {
+    max-width: 400px;
+}
+
+.btn-size {
+    width: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+/* css for clothes page */
+.dress-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/be4fba9088.js"></script>
+        <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
     </head>
 <body>
 
@@ -43,22 +45,59 @@
     <div class="main-container">
         <div class="clothes-col">
         
-        <img class="thumbnail" src="assets/adult-attractive-beautiful-1537496.jpg" onclick="changeImage('assets/adult-attractive-beautiful-1537496.jpg')" />
-        <img class="thumbnail" src="assets/beautiful-woman-car-photoshoot-1537495.jpg" onclick="changeImage('assets/beautiful-woman-car-photoshoot-1537495.jpg')" />
-        <img class="thumbnail" src="assets/adult-beautiful-city-1537494.jpg" onclick="changeImage('assets/adult-beautiful-city-1537494.jpg')" />
-        <img class="thumbnail" src="assets/adorable-adult-beautiful-1537497.jpg" onclick="changeImage('assets/adorable-adult-beautiful-1537497.jpg')" />
+        <img class="thumbnail" src="assets/main_dress_1.jpg" onclick="swapImage('assets/main_dress_1.jpg')" />
+        <img class="thumbnail" src="assets/main_dress_2.jpg" onclick="swapImage('assets/main_dress_2.jpg')" />
+        <img class="thumbnail" src="assets/main_dress_3.jpg" onclick="swapImage('assets/main_dress_3.jpg')" />
+        <img class="thumbnail" src="assets/main_dress_4.jpg" onclick="swapImage('assets/main_dress_4.jpg')" />
         </div>
         <div class="clothes-col">
-                <img id="product" src="assets/adorable-adult-beautiful-1537497.jpg" width= "200px"/>
+                <img id="product" src="assets/main_dress_1.jpg" width= "300px"/>
         </div>
-
+        <div class="clothes-col">
+            <h2>White Lacy Dress</h2>
+            <p>$45.00</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="size">
+            <button class="btn-size">XS</button>
+            <button class="btn-size">S</button>
+            <button class="btn-size">M</button>
+            <button class="btn-size">L</button>
+            <button class="btn-size">XL</button>
+            </div>
+            <button class="cart">Add to Cart</button>
+        </div>
+    </div>
         <script>
-            function changeImage(img) {
+            function swapImage(img) {
                 document.getElementById('product').src = img;
             }
         </script>
 
-    </div>
+        <hr>
+        
+        <h2>You Might Also Like</h2>
+        <div class="main-container">
+            <div class="clothes-col"><img src="assets/alt_dress_1.jpg" width="200px"/> </div>
+            <div class="clothes-col"><img src="assets/alt_dress_2.jpg" width="200px" /></div>
+            <div class="clothes-col"><img src="assets/alt_dress_3.jpg" width="200px" /></div>
+        </div>
+
+        <hr>
+
+        <div class="review-container">
+            <h2>Customer Reviews</h2>
+
+            <form>
+                <input name="comment" type="text" maxlength="100" placeholder="Add Your Review Here!" aria-labelledby="submit-comment">
+                <button type="submit" id="submit-comment">Submit Review</button>
+              </form>
+              
+              <section class="comments">
+                <ul id="comments"></ul>
+              </section>
+        </div>
+
+    
 
 
 
