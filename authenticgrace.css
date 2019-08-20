@@ -70,7 +70,7 @@ hr {
     background-color:#FFBD99;
     border: 0 none;
     margin-top: 100px;
-    margin-bottom:100px;
+    margin-bottom:80px;
     }
 
 .container {
@@ -365,7 +365,8 @@ form {
 /* clothing item page css */
 
 .thumbnail {
-    width: 50px;
+    width: 60px;
+    margin: 15px;
 }
 
 .main-container {
@@ -398,11 +399,31 @@ form {
     width: 60px;
 }
 
-.btn-size:hover {
+.btn-size:hover, .btn-cart:hover {
     background-color: #D0ECEA;
+    cursor: pointer;
+}
+
+.btn-cart {
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
 }
 
 
-h2 {
+
+.heading {
     text-align: center;
+    margin-bottom: 60px;
+}
+.review-container {
+   margin-bottom: 50px;
+}
+.review {
+    display:flex;
+    flex-direction: column;
+    margin-left: 500px;
+    
 }
