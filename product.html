@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="csrf-param" content="_csrf">
             <meta name="csrf-token" content="bg7tZYnGqSsafNURsz-nJmQdtqrg_VeH7O2HwQ0I0dfaExSmUlljAZtaFJvhEuALgPkudaWKmMKzs58juwZldQ==">
     <!--End of responsive screen -->
@@ -16,24 +16,28 @@
 <body>
 
     <header> 
+    <div class="header-container">
+        <div class="nav-left">
         <a href="index.html" class="nav-header">Authentic Grace</a> 
         <img src="assets/ag_logo.png" width="100px" class="nav-image">
-        <div class="nav-bar-middle">
+        <!-- <div class="nav-bar-middle"> -->
          <ul class="nav-bar">
-            <li class="nav-bar"><a href="#">Shop</a></li>
+            <li class="nav-bar"><a href="clothes.html">Shop</a></li>
             <li class="nav-bar"><a href="#">Our Story</a></li>
             <li class="nav-bar"><a href="#">Blog</a></li>
             <li class="nav-bar"><a href="#">Contact</a></li>
           </ul>
+        <!-- </div> -->
         </div>
     
     
         <div class="nav-bar-right">
           <ul class="nav-actions-ul">
-            <li class="nav-actions"><a href="#"></li><i class="fas fa-female"></i></a></li>
+            <li class="nav-actions"><a href="#"><i class="fas fa-female"></i></a></li>
             <li class="nav-actions"><a href="#"><i class="fas fa-search"></i></a></li>
-            <li class="nav-actions"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>         
+            <li class="nav-actions"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>     
           </ul>        
+        </div>
         </div>    
     </header>
  
@@ -77,15 +81,7 @@
           Quantity:
         </div>
     </div>
-    
-    <!-- <select id="mySelect-qty">
-        <option>Select</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-    </select> -->
+  
     
     <form>
         <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
@@ -127,67 +123,65 @@
         </div>
     </div>
     </div>
-    <div class="footer-container">
-        <footer>
-            <!-- <div class="logo_container"><a class="footer_logo" href="#">
-                <img src="assets/ag_logo.png" height="75px">
-            </div> -->
-        <!--end authentic grace logo container-->
-        
-            <div class="social_media_links_container">
-                  <ul class="social_media_links">
-                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
-                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
-                    <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-                  </ul>
-            </div>
-         <!--End footer social media links-->
-        
-            <div class="about_links_container">
-                     <h3 class="footer_about">ABOUT</h3>
-                        <ul class="footer_about_links">
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-            </div>
-        <!--End footer "ABOUT" links-->
-        
-            <div class="help_links_container">
-                    <h3 class="footer_help">HELP</h3>
-                        <ul class="footer_help_links">
-                            <li><a href="#">Track Order</a><li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-            </div>
-        <!--End footer "HELP" links-->
-            <div class="subscription">
-            <div class="subscription_email_listing_container">
-                 <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
-                method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate>
-                        </form>        
-                <label for="ag-EMAIL">Join our email newsletter</label>
-            </div>
-            
-        
-            <div class="subscription_email_entry_container">
-                <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
-                                    
-                    <button class="newsletter-button" type="submit">
-                        <i class="fa fa-angle-right"></i>
-                    </button>
-            </div>
-            </div>
-        
-        <!--End subscription email listing entry links-->
-        
-        
-        
-        </footer>
-        </div>
-         <!--End footer container--> 
+  <!--Begin footer-->
+  <footer>
+      <div class="footer-container">
+          <div class="footer-col"><a class="footer_logo" href="#">
+              <img class="logo" src="assets/ag_logo.png" height="75px"></a>
+         
+              <div class="social_media_links_container">
+                <ul class="social_media_links">
+                  <li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+                  <li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                </ul>
+              </div>
+          </div>
+       
+          <div class="footer-col">
+              <div class="about_links_container">
+                   <h3 class="footer_about">ABOUT</h3>
+                      <ul class="footer_about_links">
+                          <li><a href="clothes.html">Shop</a></li>
+                          <li><a href="#">Our Story</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+              </div>
+          </div>
+      
+          <div class="footer-col">
+              <div class="help_links_container">
+                  <h3 class="footer_help">HELP</h3>
+                      <ul class="footer_help_links">
+                          <li><a href="#">Track Order</a><li>
+                          <li><a href="#">Help</a></li>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+              </div>
+          </div>
+      
+          <div class="footer-col">
+              <div class="subscription">
+                  <div class="subscription_email_listing_container">
+                      <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
+                          method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate>
+                      </form>        
+                      <label for="ag-EMAIL">Join our email newsletter</label>
+                  </div>
+          
+      
+                  <div class="subscription_email_entry_container">
+                      <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
+                                  
+                      <button class="newsletter-button" type="submit">
+                      <i class="fa fa-angle-right"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>  
+      </div>
+  </footer>
     
 </body>
 

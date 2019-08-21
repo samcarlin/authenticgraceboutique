@@ -55,7 +55,7 @@ a, a:visited {
     color: inherit;
 }
 
-
+/* landing page css */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -77,68 +77,46 @@ hr {
     padding: 0px;
     width: 90%;
     margin: 20px auto 50px auto;  
+    text-align: center;
 }
-
-.container-story {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .banner-image {
     margin: 0 auto;
     display: block;
     width: 50%;
 }
 
-
-div {
+/* div {
     display: block;
+} */
+
+.container-story {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.story-col {
+    display: flex;
+    flex-direction: column;
 }
 
-.story::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.story-section-left {
-    float: left;
-    width: 60%;  
-}
-
-.story-section-right {
-    float: left;
-    width: 40%;   
-}
-
-.story-section-left p {
-    margin-left: 150px;
+.story-col p {
+    max-width: 400px;
     margin-right: 50px;
-}
-
-.story-section-left h1 {
-    margin-left: 150px;
-    
 }
 
 .categories {
     text-align: center;
-
-}
-
-.categories::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.category {
-    float: left;
-    width: 33.33%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .category-icon {
-    position: relative;
-    
+    position: relative;  
 }
 
 .category-icon p {
@@ -154,19 +132,12 @@ h1 {
    font-size: 50px; 
 }
 
-.testimonials {
+ .testimonials {
     text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 
-}
-.testimonials::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.testimonial {
-    float: left;
-    width: 50%;
-    
 }
 
 .testimonial-icon {
@@ -307,6 +278,7 @@ form {
     clear: both;
     display: table;
 }
+
 /* css for clothes page */
 .dress-container {
     display: flex;
@@ -319,48 +291,6 @@ form {
 .clothes-h1 {
     text-align: center;
 }
-
-/* footer css*/
-
-.footer-container {
-    background: #D0ECEA;
-    height: 150px;
-    width: 100%;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;  
-}
-
-.footer-col {
-    flex-direction: column;
-    margin-right: 3em;
-}
-
-.footer-logo {
-    margin: 0;
-}
-
-.logo {
-    margin-left: 100px;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-
- .social_media_links {
-    margin-top: 0;
-    margin-left: 60px;
-}
-
-.social_media_links li {
-    padding: 10px;
-    display: inline-block;    
-}
-
-.subscription {
-    padding-top: 40px;
-}  
 
 /* clothing item page css */
 
@@ -412,18 +342,74 @@ form {
     width: 100px;
 }
 
-
-
 .heading {
     text-align: center;
     margin-bottom: 60px;
 }
 .review-container {
-   margin-bottom: 50px;
+   
+   width: 40%;
+   margin: 0 auto 50px auto;
 }
 .review {
     display:flex;
-    flex-direction: column;
-    margin-left: 500px;
+    flex-direction: column;  
+}
+
+.stars {
+    display: flex;
+    color: #a6bcbb;
+    margin-top: 30px;
     
 }
+
+.review p {
+    margin: 10px 0;
+}
+
+.review-container h3 {
+    margin-bottom: 10px;
+}
+
+/* footer css*/
+
+.footer-container {
+    background: #D0ECEA;
+    height: 150px;
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.footer-col {
+    flex-direction: column;
+    margin-right: 3em;
+}
+
+.footer-logo {
+    margin: 0;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+ .social_media_links {
+    margin-top: 0;
+    margin-left: 60px;
+}
+
+.social_media_links li {
+    padding: 10px;
+    display: inline-block;    
+}
+
+.subscription {
+    padding-top: 40px;
+}  
+

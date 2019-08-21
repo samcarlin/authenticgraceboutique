@@ -9,11 +9,9 @@
     <!--End of responsive screen -->
         <title>Authentic Grace</title>
         <link rel="stylesheet" href="authenticgrace.css">
-        <link rel="stylesheet" href="responsive.css">
+        <!-- <link rel="stylesheet" href="responsive.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/be4fba9088.js"></script>
-        <!-- import the webpage's client-side javascript file -->
-    <script src="/client.js" defer></script>
     </head>
 <body>
 
@@ -65,11 +63,6 @@
             <button class="btn-size" id="size5" onclick="changeColor()">XL</button>
             </div>
 
-            <!-- <script>
-                function changeColor() {
-                    document.getElementById("size").style.backgroundColor = "#D0ECEA";
-                }
-            </script> -->
         
             <button class="btn-cart">Add to Cart</button>
         </div>
@@ -104,17 +97,23 @@
               </section> -->
 
               <div class="review">
-                  <h3>Great Dress</h3>
-                  <p>This dress feels and looks amazing! I love the lace.</p>
-                  <p>Christy P.</p>
+                  <div class="stars">
+                        <i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i>
+                    </div><h3>Great Dress</h3>
+                    <p>This dress feels and looks amazing! I love the lace.</p>
+                    <p>Christy P.</p>
               </div>
               <div class="review">
-                  <h3>Awesome Dress</h3>
-                  <p>The price was great, and the fit is awsome. I wear it all the time!</p>
-                  <p>Jessie R.</p>
+                    <div class="stars">
+                        <i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i>
+                    </div><h3>Awesome Dress</h3>
+                    <p>The price was great, and the fit is awsome. I wear it all the time!</p>
+                    <p>Jessie R.</p>
               </div>
               <div class="review">
-                  <h3>Nice Quality</h3>
+                    <div class="stars">
+                            <i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i><i class="fas fa-star fa-lg"></i>
+                        </div><h3>Nice Quality</h3>
                   <p>4 stars. Love the way the fabric falls and it feels like great quality. Wish it came in more colors!</p>
                   <p>Sarah H.</p>
               </div>
@@ -125,65 +124,63 @@
 
 
 
-    <!--Begin footer-->
-    <footer>
-            <div class="footer-container">
-                <div class="footer-col"><a class="footer_logo" href="#">
-                    <img class="logo" src="assets/ag_logo.png" height="75px"></a>
-               
-                    <div class="social_media_links_container">
-                      <ul class="social_media_links">
-                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
-                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
-                        <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-                      </ul>
-                    </div>
+   <!--Begin footer-->
+   <footer>
+        <div class="footer-container">
+            <div class="footer-col"><a class="footer_logo" href="#">
+                <img class="logo" src="assets/ag_logo.png" height="75px"></a>
+           
+                <div class="social_media_links_container">
+                  <ul class="social_media_links">
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                  </ul>
                 </div>
-             
-                <div class="footer-col">
-                    <div class="about_links_container">
-                         <h3 class="footer_about">ABOUT</h3>
-                            <ul class="footer_about_links">
-                                <li><a href="clothes.html">Shop</a></li>
-                                <li><a href="#">Our Story</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                    </div>
-                </div>
-            
-                <div class="footer-col">
-                    <div class="help_links_container">
-                        <h3 class="footer_help">HELP</h3>
-                            <ul class="footer_help_links">
-                                <li><a href="#">Track Order</a><li>
-                                <li><a href="#">Help</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul>
-                    </div>
-                </div>
-            
-                <div class="footer-col">
-                    <div class="subscription">
-                        <div class="subscription_email_listing_container">
-                            <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
-                                method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate>
-                            </form>        
-                            <label for="ag-EMAIL">Join our email newsletter</label>
-                        </div>
-                
-            
-                        <div class="subscription_email_entry_container">
-                            <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
-                                        
-                            <button class="newsletter-button" type="submit">
-                            <i class="fa fa-angle-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>  
             </div>
-        </footer>
+         
+            <div class="footer-col">
+                <div class="about_links_container">
+                     <h3 class="footer_about">ABOUT</h3>
+                        <ul class="footer_about_links">
+                            <li><a href="clothes.html">Shop</a></li>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                </div>
+            </div>
         
-             <!--End footer container--> 
+            <div class="footer-col">
+                <div class="help_links_container">
+                    <h3 class="footer_help">HELP</h3>
+                        <ul class="footer_help_links">
+                            <li><a href="#">Track Order</a><li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                </div>
+            </div>
+        
+            <div class="footer-col">
+                <div class="subscription">
+                    <div class="subscription_email_listing_container">
+                        <form action="https://github.com/samcarlin/authenticgrace/blob/master/index.html/subscribe/post?u=2d1492717e6b37c94d910a306&id=30abb658c7" 
+                            method="post" id="newsletter=form" name="ag=embedded-subscribe-form" class="subscribe_form validate" target ="_blank" novalidate>
+                        </form>        
+                        <label for="ag-EMAIL">Join our email newsletter</label>
+                    </div>
+            
+        
+                    <div class="subscription_email_entry_container">
+                        <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>
+                                    
+                        <button class="newsletter-button" type="submit">
+                        <i class="fa fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
 </body>
